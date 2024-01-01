@@ -6,4 +6,8 @@ deployment:
   - name: green
     replicas: 1
     color: green
-    weight: 5
+    weight: 8
+  - name: white
+    replicas: 10
+    color: white
+    weight: 2
