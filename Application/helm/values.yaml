@@ -2,7 +2,7 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/eindor13/eindor'
+  image: 'quay.io/eindor13/eindor:chart_v1'
   tag: 'chart_v1'
 
 service:
