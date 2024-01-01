@@ -1,21 +1,21 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: {{ .Values.Chart.Name }}
+  name: {{ .Chart.Name }}
 spec:
   replicas: {{ .Values.ReplicaNumber }}
   selector:
     matchLabels:
-      app: {{ .Values.Chart.Name }}
+      app: {{ .Chart.Name }}
   template:
     metadata:
       labels:
-        app: {{ .Values.Chart.Name }}
+        app: {{ .Chart.Name }}
     spec:
       containers:
         - resources: {}
           terminationMessagePath: /dev/termination-log
-          name: {{ .Values.Chart.Name }}
+          name: {{ .Chart.Name }}
           ports:
             - containerPort: {{ .Values.containers.containerPort }}
               protocol: TCP
