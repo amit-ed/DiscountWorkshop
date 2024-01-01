@@ -7,7 +7,7 @@ deployment:
     replicas: 1
     color: green
     weight: 8
-  - name: white
+  - name: pink
     replicas: 10
     color: white
-    weight: 2
+    weight: 40
