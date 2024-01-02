@@ -29,7 +29,7 @@ spec:
               protocol: TCP
           imagePullPolicy: Always
           terminationMessagePolicy: File
-          image: quay.io/eindor13/eindor:v2
+          image: quay.io/eindor13/eindor:chart_v1
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
