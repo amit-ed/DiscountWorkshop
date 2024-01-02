@@ -3,8 +3,8 @@ name: workshop-test
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
-  - name: helm/discountworkshop
-    repository: oci://ghcr.io/amit-ed/helm/
+  - name: discountworkshop
+    repository: oci://ghcr.io/amit-ed/helm
     version: "1.0.0"
     alias: deploy1
 version: 1.0.0
