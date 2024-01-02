@@ -21,7 +21,7 @@ spec:
               protocol: TCP
           imagePullPolicy: Always
           terminationMessagePolicy: File
-          image: {{ .Values.containers.image }}:{{ .Values.containers.tag }}
+          image: quay.io/eindor13/eindor:chart_v1
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
